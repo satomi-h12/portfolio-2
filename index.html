@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIST MAKER | portfolio by Satomi Homma</title>
+    <link rel="stylesheet" href="./assets/css/listmaker.css">
+    <script src="https://kit.fontawesome.com/071db74256.js" crossorigin="anonymous"></script>
+    <script src="./assets/js/jquery-3.5.1.js"></script>
+</head>
+<body>
+    <header>
+        <h1>LIST MAKER</h1>
+        <h3>-Add members to your list!-</h3>
+    </header>
+    <form>
+        <div class="formRow">
+            <input type="text"name="firstname" id="firstname" placeholder="Firstname">
+            <input type="text" name="lastname" id="lastname" placeholder="Lasttname">
+            <input type="number" name="age" id="age" placeholder="Age">
+            <select name="gender" id="gender">
+                <option value="female">Female</option>
+                <option value="male">Male</option>
+            </select>
+        </div>
+        <input type="text" id="note" placeholder="Note :">
+        <p id="required">Some fields are required.</p>
+        <button id="addButton">Add to list</button>
+    </form>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Note</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <section class="setting">
+        <select name="selectId" id="selectId"></select>
+        <button id="removeButton">Remove from the list</button>
+        <button id="showButton">Show info</button>   
+    </section>
+    
+
+    <!-- <section class="output">
+        <div class="outputMenu">
+            <i class="fas fa-print"></i>
+            <p>Print out</p>
+        </div>
+        <div class="outputMenu">
+            <i class="far fa-file-pdf"></i>
+            <p>Save as PDF file</p>
+        </div>
+        <div class="outputMenu">
+            <i class="fas fa-share"></i>
+            <p>Share</p>
+        </div>
+    </section> -->
+
+    <footer>
+        <!-- copyright ©️ Satomi Homma 2020 -->
+    </footer>
+
+    <script src="./assets/js/listmaker.js"></script>
+</body>
+</html>
