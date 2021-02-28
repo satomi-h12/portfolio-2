@@ -16,7 +16,7 @@ $(function () {
             $("#required").hide("slow");
             selectId.prepend("<option class=" + currentCount + ">" + currentCount + "</option>");
             $("tbody").prepend("<tr id=" + currentCount + "><td>" + currentCount + "</td><td>" + firstname + "</td><td>" + lastname + "</td><td>" + age + "</td><td>" + gender + "</td><td>" + note + "</td></tr>");
-            console.log(currentCount);
+//             console.log(currentCount);
             currentCount++;
         }
         e.preventDefault(); 
