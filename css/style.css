@@ -112,39 +112,6 @@ table tr:nth-child(even){
     border-radius: 3px;
 }
 
-.output{
-    width: 45%;
-    margin: 70px auto 50px;
-    display: flex;
-}
-
-.outputMenu{
-    width: 33.3%;
-    border: 1px solid #165c52;
-    height: 95px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.outputMenu:first-child,
-.outputMenu:last-child{
-    background-color: rgba(53, 219, 197, 0.394);
-}
-
-.outputMenu i{
-    font-size: 34px;
-    color: #35dbc5;
-    color: #165c52;
-}
-
-.outputMenu p{
-    text-align: center;
-    margin-top: 10px;
-}
-
 footer{
     background-color: #E5E5E5;
     height: 10px;
